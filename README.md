@@ -1,4 +1,4 @@
-![Relative Pitch Trainer](https://github.com/storple/RelativePitchTrainer/blob/main/static/website.png?raw=true)
+![Relative Pitch Trainer](https://github.com/storple/RelativePitchTrainer/blob/main/website.png?raw=true)
 <br />
 
 ![HTML](https://img.shields.io/badge/html-F55600?style=for-the-badge&logo=HTML5&logoColor=white)
