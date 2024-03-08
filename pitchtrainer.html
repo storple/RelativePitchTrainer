@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Pitch Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Pitch Training</h1>
+    <p>Listen to the first note and try to guess the name of the second note.</p>
+    <div id="buttons">
+        <button class="button" id="newNotes" onclick="start()">New</button>
+        <button class="button" id="playNotes" onclick="playBothNotes()">Play</button>
+    </div>
+    <div id="userGuess">
+        <label for="guess">Your Guess:</label>
+        <input type="text" id="guess" name="guess">
+        <button id="guessButton" class="button" onclick="checkGuess()">Check</button>
+    </div>
+    <div id="result"></div>
+</body>
+<footer>
+    <p>Created by <a href="https://github.com/storple">Storple on GitHub!</a></p>
+</footer>
+</html>
